@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "embedchainexample"
+version = "0.1.0"
+description = "Just an example"
+authors = ["Sergio Mondragon"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+embedchain = "^0.0.67"
+
+[tool.poetry.group.dev.dependencies]
+embedchain = "^0.0.67"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
